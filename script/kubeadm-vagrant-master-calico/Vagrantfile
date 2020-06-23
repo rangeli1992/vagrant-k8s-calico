@@ -168,6 +168,8 @@ if ip addr | grep -q #{MASTER_IP}; then
 fi
 EOF
 
+chmod +x /etc/keepalived/check_apiserver.sh
+
 systemctl restart keepalived
 sleep 10
 
