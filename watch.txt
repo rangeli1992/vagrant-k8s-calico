@@ -1,0 +1,205 @@
+my-nginx.161b0e9e08dc65da: default//my-nginx.161b0e9e08dc65da/Stopping container my-nginx 
+nginx-deployment.161b0eaf96fce505: entry-task//nginx-deployment.161b0eaf96fce505/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+nginx-deployment-6f7656cc59.161b0eafd4312449: entry-task//nginx-deployment-6f7656cc59.161b0eafd4312449/Created pod: nginx-deployment-6f7656cc59-pnzx6 
+nginx-deployment-6f7656cc59-pnzx6.161b0eafd4d97b6c: entry-task//nginx-deployment-6f7656cc59-pnzx6.161b0eafd4d97b6c/Successfully assigned entry-task/nginx-deployment-6f7656cc59-pnzx6 to node3 
+nginx-deployment-6f7656cc59.161b0eafd50857f4: entry-task//nginx-deployment-6f7656cc59.161b0eafd50857f4/Created pod: nginx-deployment-6f7656cc59-h8w7r 
+nginx-deployment-6f7656cc59-h8w7r.161b0eafd5e78f78: entry-task//nginx-deployment-6f7656cc59-h8w7r.161b0eafd5e78f78/Successfully assigned entry-task/nginx-deployment-6f7656cc59-h8w7r to node2 
+nginx-deployment-6f7656cc59-pnzx6.161b0eaffcf95412: entry-task//nginx-deployment-6f7656cc59-pnzx6.161b0eaffcf95412/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-h8w7r.161b0eaffd9722ce: entry-task//nginx-deployment-6f7656cc59-h8w7r.161b0eaffd9722ce/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-pnzx6.161b0eaffe140af8: entry-task//nginx-deployment-6f7656cc59-pnzx6.161b0eaffe140af8/Created container web 
+nginx-deployment-6f7656cc59-h8w7r.161b0eafff315c9f: entry-task//nginx-deployment-6f7656cc59-h8w7r.161b0eafff315c9f/Created container web 
+nginx-deployment-6f7656cc59-pnzx6.161b0eb0046f8233: entry-task//nginx-deployment-6f7656cc59-pnzx6.161b0eb0046f8233/Started container web 
+nginx-deployment-6f7656cc59-h8w7r.161b0eb0052707b2: entry-task//nginx-deployment-6f7656cc59-h8w7r.161b0eb0052707b2/Started container web 
+my-nginx.161b0eb5cb4821e1: default//my-nginx.161b0eb5cb4821e1/Successfully assigned default/my-nginx to node1 
+my-nginx.161b0eb624e64aec: default//my-nginx.161b0eb624e64aec/Pulling image "nginx" 
+my-nginx.161b0ec285ad414e: default//my-nginx.161b0ec285ad414e/Successfully pulled image "nginx" 
+my-nginx.161b0ec285bfdce3: default//my-nginx.161b0ec285bfdce3/Error: cannot find volume "default-token-sjzln" to mount into container "my-nginx" 
+nginx-deployment.161b0ec679b6ee98: entry-task//nginx-deployment.161b0ec679b6ee98/Scaled up replica set nginx-deployment-76ffd996d8 to 1 
+nginx-deployment-76ffd996d8.161b0ec67a1f727b: entry-task//nginx-deployment-76ffd996d8.161b0ec67a1f727b/Created pod: nginx-deployment-76ffd996d8-jtfrp 
+nginx-deployment-76ffd996d8-jtfrp.161b0ec67aa7c993: entry-task//nginx-deployment-76ffd996d8-jtfrp.161b0ec67aa7c993/Successfully assigned entry-task/nginx-deployment-76ffd996d8-jtfrp to node1 
+nginx-deployment-76ffd996d8-jtfrp.161b0ec6a725dcfd: entry-task//nginx-deployment-76ffd996d8-jtfrp.161b0ec6a725dcfd/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-jtfrp.161b0ec6a896a277: entry-task//nginx-deployment-76ffd996d8-jtfrp.161b0ec6a896a277/Created container web 
+nginx-deployment-76ffd996d8-jtfrp.161b0ec6af31138d: entry-task//nginx-deployment-76ffd996d8-jtfrp.161b0ec6af31138d/Started container web 
+nginx-deployment.161b0ec6db248153: entry-task//nginx-deployment.161b0ec6db248153/Scaled down replica set nginx-deployment-6f7656cc59 to 1 
+nginx-deployment-6f7656cc59-pnzx6.161b0ec6dbaa700f: entry-task//nginx-deployment-6f7656cc59-pnzx6.161b0ec6dbaa700f/Stopping container web 
+nginx-deployment-6f7656cc59.161b0ec6dbd095cd: entry-task//nginx-deployment-6f7656cc59.161b0ec6dbd095cd/Deleted pod: nginx-deployment-6f7656cc59-pnzx6 
+nginx-deployment.161b0ec6dbf97810: entry-task//nginx-deployment.161b0ec6dbf97810/Scaled up replica set nginx-deployment-76ffd996d8 to 2 
+nginx-deployment-76ffd996d8.161b0ec6de37e70c: entry-task//nginx-deployment-76ffd996d8.161b0ec6de37e70c/Created pod: nginx-deployment-76ffd996d8-6v67w 
+nginx-deployment-76ffd996d8-6v67w.161b0ec6dfc4a4fc: entry-task//nginx-deployment-76ffd996d8-6v67w.161b0ec6dfc4a4fc/Successfully assigned entry-task/nginx-deployment-76ffd996d8-6v67w to node2 
+nginx-deployment-76ffd996d8-6v67w.161b0ec7050264cc: entry-task//nginx-deployment-76ffd996d8-6v67w.161b0ec7050264cc/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-6v67w.161b0ec706779147: entry-task//nginx-deployment-76ffd996d8-6v67w.161b0ec706779147/Created container web 
+nginx-deployment-76ffd996d8-6v67w.161b0ec70ef00a42: entry-task//nginx-deployment-76ffd996d8-6v67w.161b0ec70ef00a42/Started container web 
+nginx-deployment.161b0ec743624575: entry-task//nginx-deployment.161b0ec743624575/Scaled down replica set nginx-deployment-6f7656cc59 to 0 
+nginx-deployment-6f7656cc59-h8w7r.161b0ec7442e1f47: entry-task//nginx-deployment-6f7656cc59-h8w7r.161b0ec7442e1f47/Stopping container web 
+nginx-deployment-6f7656cc59.161b0ec7446f11ca: entry-task//nginx-deployment-6f7656cc59.161b0ec7446f11ca/Deleted pod: nginx-deployment-6f7656cc59-h8w7r 
+my-nginx.161b0e9e08dc65da: default//my-nginx.161b0e9e08dc65da/Stopping container my-nginx 
+my-nginx.161b0eb5cb4821e1: default//my-nginx.161b0eb5cb4821e1/Successfully assigned default/my-nginx to node1 
+my-nginx.161b0eb624e64aec: default//my-nginx.161b0eb624e64aec/Pulling image "nginx" 
+my-nginx.161b0ec285ad414e: default//my-nginx.161b0ec285ad414e/Successfully pulled image "nginx" 
+my-nginx.161b0ec285bfdce3: default//my-nginx.161b0ec285bfdce3/Error: cannot find volume "default-token-sjzln" to mount into container "my-nginx" 
+nginx-deployment.161b0ef7d094bd99: entry-task//nginx-deployment.161b0ef7d094bd99/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+nginx-deployment-6f7656cc59.161b0ef7d3730b4e: entry-task//nginx-deployment-6f7656cc59.161b0ef7d3730b4e/Created pod: nginx-deployment-6f7656cc59-p8825 
+nginx-deployment-6f7656cc59-p8825.161b0ef7d3e25cd1: entry-task//nginx-deployment-6f7656cc59-p8825.161b0ef7d3e25cd1/Successfully assigned entry-task/nginx-deployment-6f7656cc59-p8825 to node2 
+nginx-deployment-6f7656cc59.161b0ef7d482284e: entry-task//nginx-deployment-6f7656cc59.161b0ef7d482284e/Created pod: nginx-deployment-6f7656cc59-g45qv 
+nginx-deployment-6f7656cc59-g45qv.161b0ef7d57ffd9c: entry-task//nginx-deployment-6f7656cc59-g45qv.161b0ef7d57ffd9c/Successfully assigned entry-task/nginx-deployment-6f7656cc59-g45qv to node1 
+nginx-deployment-6f7656cc59-p8825.161b0ef7fe1b85e3: entry-task//nginx-deployment-6f7656cc59-p8825.161b0ef7fe1b85e3/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-p8825.161b0ef7ffc6c571: entry-task//nginx-deployment-6f7656cc59-p8825.161b0ef7ffc6c571/Created container web 
+nginx-deployment-6f7656cc59-g45qv.161b0ef801876eae: entry-task//nginx-deployment-6f7656cc59-g45qv.161b0ef801876eae/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-g45qv.161b0ef8031fe70b: entry-task//nginx-deployment-6f7656cc59-g45qv.161b0ef8031fe70b/Created container web 
+nginx-deployment-6f7656cc59-p8825.161b0ef80a1e388e: entry-task//nginx-deployment-6f7656cc59-p8825.161b0ef80a1e388e/Started container web 
+nginx-deployment-6f7656cc59-g45qv.161b0ef80a90709a: entry-task//nginx-deployment-6f7656cc59-g45qv.161b0ef80a90709a/Started container web 
+my-nginx.161b0efa74ac848a: default//my-nginx.161b0efa74ac848a/Successfully assigned default/my-nginx to node3 
+my-nginx.161b0efa997ebdc6: default//my-nginx.161b0efa997ebdc6/Pulling image "nginx" 
+my-nginx.161b0efb7a12b949: default//my-nginx.161b0efb7a12b949/Successfully pulled image "nginx" 
+my-nginx.161b0efb7c3bbc37: default//my-nginx.161b0efb7c3bbc37/Created container my-nginx 
+my-nginx.161b0efb82b80275: default//my-nginx.161b0efb82b80275/Started container my-nginx 
+my-nginx.161b0efc41122511: default//my-nginx.161b0efc41122511/Stopping container my-nginx 
+nginx-deployment.161b0f12f1d3e674: entry-task//nginx-deployment.161b0f12f1d3e674/Scaled up replica set nginx-deployment-76ffd996d8 to 1 
+nginx-deployment-76ffd996d8.161b0f12f2758270: entry-task//nginx-deployment-76ffd996d8.161b0f12f2758270/Created pod: nginx-deployment-76ffd996d8-kjgtt 
+nginx-deployment-76ffd996d8-kjgtt.161b0f12f500377f: entry-task//nginx-deployment-76ffd996d8-kjgtt.161b0f12f500377f/Successfully assigned entry-task/nginx-deployment-76ffd996d8-kjgtt to node3 
+nginx-deployment-76ffd996d8-kjgtt.161b0f131e9b78d9: entry-task//nginx-deployment-76ffd996d8-kjgtt.161b0f131e9b78d9/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-kjgtt.161b0f131ff74bf9: entry-task//nginx-deployment-76ffd996d8-kjgtt.161b0f131ff74bf9/Created container web 
+nginx-deployment-76ffd996d8-kjgtt.161b0f1328073873: entry-task//nginx-deployment-76ffd996d8-kjgtt.161b0f1328073873/Started container web 
+nginx-deployment.161b0f1343f31be0: entry-task//nginx-deployment.161b0f1343f31be0/Scaled down replica set nginx-deployment-6f7656cc59 to 1 
+nginx-deployment-6f7656cc59.161b0f1344a66994: entry-task//nginx-deployment-6f7656cc59.161b0f1344a66994/Deleted pod: nginx-deployment-6f7656cc59-p8825 
+nginx-deployment-6f7656cc59-p8825.161b0f13447c29f0: entry-task//nginx-deployment-6f7656cc59-p8825.161b0f13447c29f0/Stopping container web 
+nginx-deployment.161b0f1345e422fb: entry-task//nginx-deployment.161b0f1345e422fb/Scaled up replica set nginx-deployment-76ffd996d8 to 2 
+nginx-deployment-76ffd996d8.161b0f13474db0bf: entry-task//nginx-deployment-76ffd996d8.161b0f13474db0bf/Created pod: nginx-deployment-76ffd996d8-x7jzz 
+nginx-deployment-76ffd996d8-x7jzz.161b0f134816d734: entry-task//nginx-deployment-76ffd996d8-x7jzz.161b0f134816d734/Successfully assigned entry-task/nginx-deployment-76ffd996d8-x7jzz to node2 
+nginx-deployment-76ffd996d8-x7jzz.161b0f137507a898: entry-task//nginx-deployment-76ffd996d8-x7jzz.161b0f137507a898/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-x7jzz.161b0f1376139efc: entry-task//nginx-deployment-76ffd996d8-x7jzz.161b0f1376139efc/Created container web 
+nginx-deployment-76ffd996d8-x7jzz.161b0f137ee8511a: entry-task//nginx-deployment-76ffd996d8-x7jzz.161b0f137ee8511a/Started container web 
+nginx-deployment-6f7656cc59-g45qv.161b0f139b802598: entry-task//nginx-deployment-6f7656cc59-g45qv.161b0f139b802598/Stopping container web 
+nginx-deployment-6f7656cc59.161b0f139bb44a70: entry-task//nginx-deployment-6f7656cc59.161b0f139bb44a70/Deleted pod: nginx-deployment-6f7656cc59-g45qv 
+nginx-deployment.161b0f139b48810e: entry-task//nginx-deployment.161b0f139b48810e/Scaled down replica set nginx-deployment-6f7656cc59 to 0 
+[Create/Update Event]my-nginx.161b0e9e08dc65da: default//my-nginx.161b0e9e08dc65da/Stopping container my-nginx 
+[Create/Update Event]my-nginx.161b0eb5cb4821e1: default//my-nginx.161b0eb5cb4821e1/Successfully assigned default/my-nginx to node1 
+[Create/Update Event]my-nginx.161b0eb624e64aec: default//my-nginx.161b0eb624e64aec/Pulling image "nginx" 
+[Create/Update Event]my-nginx.161b0ec285ad414e: default//my-nginx.161b0ec285ad414e/Successfully pulled image "nginx" 
+[Create/Update Event]my-nginx.161b0ec285bfdce3: default//my-nginx.161b0ec285bfdce3/Error: cannot find volume "default-token-sjzln" to mount into container "my-nginx" 
+[Create/Update Event]my-nginx.161b0efa74ac848a: default//my-nginx.161b0efa74ac848a/Successfully assigned default/my-nginx to node3 
+[Create/Update Event]my-nginx.161b0efa997ebdc6: default//my-nginx.161b0efa997ebdc6/Pulling image "nginx" 
+[Create/Update Event]my-nginx.161b0efb7a12b949: default//my-nginx.161b0efb7a12b949/Successfully pulled image "nginx" 
+[Create/Update Event]my-nginx.161b0efb7c3bbc37: default//my-nginx.161b0efb7c3bbc37/Created container my-nginx 
+[Create/Update Event]my-nginx.161b0efb82b80275: default//my-nginx.161b0efb82b80275/Started container my-nginx 
+[Create/Update Event]my-nginx.161b0efc41122511: default//my-nginx.161b0efc41122511/Stopping container my-nginx 
+[Create/Update Event]nginx-deployment.161b0f2989b90d3c: entry-task//nginx-deployment.161b0f2989b90d3c/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+[Create/Update Event]nginx-deployment-6f7656cc59.161b0f299436cdde: entry-task//nginx-deployment-6f7656cc59.161b0f299436cdde/Created pod: nginx-deployment-6f7656cc59-8hktg 
+[Create/Update Event]nginx-deployment-6f7656cc59.161b0f2995605700: entry-task//nginx-deployment-6f7656cc59.161b0f2995605700/Created pod: nginx-deployment-6f7656cc59-6xbcf 
+[Create/Update Event]nginx-deployment-6f7656cc59-8hktg.161b0f2995632f40: entry-task//nginx-deployment-6f7656cc59-8hktg.161b0f2995632f40/Successfully assigned entry-task/nginx-deployment-6f7656cc59-8hktg to node3 
+[Create/Update Event]nginx-deployment-6f7656cc59-6xbcf.161b0f2995ddc3ab: entry-task//nginx-deployment-6f7656cc59-6xbcf.161b0f2995ddc3ab/Successfully assigned entry-task/nginx-deployment-6f7656cc59-6xbcf to node1 
+[Create/Update Event]nginx-deployment-6f7656cc59-8hktg.161b0f29bd440ce3: entry-task//nginx-deployment-6f7656cc59-8hktg.161b0f29bd440ce3/Container image "nginx:1.12" already present on machine 
+[Create/Update Event]nginx-deployment-6f7656cc59-8hktg.161b0f29bedd6214: entry-task//nginx-deployment-6f7656cc59-8hktg.161b0f29bedd6214/Created container web 
+[Create/Update Event]nginx-deployment-6f7656cc59-6xbcf.161b0f29c1e99d19: entry-task//nginx-deployment-6f7656cc59-6xbcf.161b0f29c1e99d19/Container image "nginx:1.12" already present on machine 
+[Create/Update Event]nginx-deployment-6f7656cc59-6xbcf.161b0f29c3c11a76: entry-task//nginx-deployment-6f7656cc59-6xbcf.161b0f29c3c11a76/Created container web 
+[Create/Update Event]nginx-deployment-6f7656cc59-8hktg.161b0f29c5109981: entry-task//nginx-deployment-6f7656cc59-8hktg.161b0f29c5109981/Started container web 
+[Create/Update Event]nginx-deployment-6f7656cc59-6xbcf.161b0f29c848d8e2: entry-task//nginx-deployment-6f7656cc59-6xbcf.161b0f29c848d8e2/Started container web 
+[Create/Update Event]nginx-deployment.161b0f2c1c7500e8: entry-task//nginx-deployment.161b0f2c1c7500e8/Scaled up replica set nginx-deployment-76ffd996d8 to 1 
+[Create/Update Event]nginx-deployment-76ffd996d8.161b0f2c1d602098: entry-task//nginx-deployment-76ffd996d8.161b0f2c1d602098/Created pod: nginx-deployment-76ffd996d8-jvh9t 
+[Create/Update Event]nginx-deployment-76ffd996d8-jvh9t.161b0f2c1f09b541: entry-task//nginx-deployment-76ffd996d8-jvh9t.161b0f2c1f09b541/Successfully assigned entry-task/nginx-deployment-76ffd996d8-jvh9t to node2 
+[Create/Update Event]nginx-deployment-76ffd996d8-jvh9t.161b0f2c4a335ec9: entry-task//nginx-deployment-76ffd996d8-jvh9t.161b0f2c4a335ec9/Container image "nginx:latest" already present on machine 
+[Create/Update Event]nginx-deployment-76ffd996d8-jvh9t.161b0f2c4bf51171: entry-task//nginx-deployment-76ffd996d8-jvh9t.161b0f2c4bf51171/Created container web 
+[Create/Update Event]nginx-deployment-76ffd996d8-jvh9t.161b0f2c516da2bc: entry-task//nginx-deployment-76ffd996d8-jvh9t.161b0f2c516da2bc/Started container web 
+[Create/Update Event]nginx-deployment.161b0f2c6d38810c: entry-task//nginx-deployment.161b0f2c6d38810c/Scaled down replica set nginx-deployment-6f7656cc59 to 1 
+[Create/Update Event]nginx-deployment.161b0f2c6ef4fb92: entry-task//nginx-deployment.161b0f2c6ef4fb92/Scaled up replica set nginx-deployment-76ffd996d8 to 2 
+[Create/Update Event]nginx-deployment-6f7656cc59-8hktg.161b0f2c6f29e7eb: entry-task//nginx-deployment-6f7656cc59-8hktg.161b0f2c6f29e7eb/Stopping container web 
+[Create/Update Event]nginx-deployment-6f7656cc59.161b0f2c6fc41962: entry-task//nginx-deployment-6f7656cc59.161b0f2c6fc41962/Deleted pod: nginx-deployment-6f7656cc59-8hktg 
+[Create/Update Event]nginx-deployment-76ffd996d8-hc7np.161b0f2c716ebd81: entry-task//nginx-deployment-76ffd996d8-hc7np.161b0f2c716ebd81/Successfully assigned entry-task/nginx-deployment-76ffd996d8-hc7np to node1 
+[Create/Update Event]nginx-deployment-76ffd996d8.161b0f2c6ffe731a: entry-task//nginx-deployment-76ffd996d8.161b0f2c6ffe731a/Created pod: nginx-deployment-76ffd996d8-hc7np 
+[Create/Update Event]nginx-deployment-76ffd996d8-hc7np.161b0f2c98a3778e: entry-task//nginx-deployment-76ffd996d8-hc7np.161b0f2c98a3778e/Container image "nginx:latest" already present on machine 
+[Create/Update Event]nginx-deployment-76ffd996d8-hc7np.161b0f2c99da1cef: entry-task//nginx-deployment-76ffd996d8-hc7np.161b0f2c99da1cef/Created container web 
+[Create/Update Event]nginx-deployment-76ffd996d8-hc7np.161b0f2c9ffe5a30: entry-task//nginx-deployment-76ffd996d8-hc7np.161b0f2c9ffe5a30/Started container web 
+[Create/Update Event]nginx-deployment.161b0f2cb489f1ca: entry-task//nginx-deployment.161b0f2cb489f1ca/Scaled down replica set nginx-deployment-6f7656cc59 to 0 
+[Create/Update Event]nginx-deployment-6f7656cc59.161b0f2cb504c47a: entry-task//nginx-deployment-6f7656cc59.161b0f2cb504c47a/Deleted pod: nginx-deployment-6f7656cc59-6xbcf 
+[Create/Update Event]nginx-deployment-6f7656cc59-6xbcf.161b0f2cb5160998: entry-task//nginx-deployment-6f7656cc59-6xbcf.161b0f2cb5160998/Stopping container web 
+my-nginx.161b0e9e08dc65da: default//my-nginx.161b0e9e08dc65da/Stopping container my-nginx 
+my-nginx.161b0eb5cb4821e1: default//my-nginx.161b0eb5cb4821e1/Successfully assigned default/my-nginx to node1 
+my-nginx.161b0eb624e64aec: default//my-nginx.161b0eb624e64aec/Pulling image "nginx" 
+my-nginx.161b0ec285ad414e: default//my-nginx.161b0ec285ad414e/Successfully pulled image "nginx" 
+my-nginx.161b0ec285bfdce3: default//my-nginx.161b0ec285bfdce3/Error: cannot find volume "default-token-sjzln" to mount into container "my-nginx" 
+my-nginx.161b0efa74ac848a: default//my-nginx.161b0efa74ac848a/Successfully assigned default/my-nginx to node3 
+my-nginx.161b0efa997ebdc6: default//my-nginx.161b0efa997ebdc6/Pulling image "nginx" 
+my-nginx.161b0efb7a12b949: default//my-nginx.161b0efb7a12b949/Successfully pulled image "nginx" 
+my-nginx.161b0efb7c3bbc37: default//my-nginx.161b0efb7c3bbc37/Created container my-nginx 
+my-nginx.161b0efb82b80275: default//my-nginx.161b0efb82b80275/Started container my-nginx 
+my-nginx.161b0efc41122511: default//my-nginx.161b0efc41122511/Stopping container my-nginx 
+nginx-deployment.161b0f38b4777061: entry-task//nginx-deployment.161b0f38b4777061/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+nginx-deployment-6f7656cc59.161b0f38f1686c7a: entry-task//nginx-deployment-6f7656cc59.161b0f38f1686c7a/Created pod: nginx-deployment-6f7656cc59-xt5n6 
+nginx-deployment-6f7656cc59.161b0f38f1df8b58: entry-task//nginx-deployment-6f7656cc59.161b0f38f1df8b58/Created pod: nginx-deployment-6f7656cc59-xfnz2 
+nginx-deployment-6f7656cc59-xt5n6.161b0f38f2b892f0: entry-task//nginx-deployment-6f7656cc59-xt5n6.161b0f38f2b892f0/Successfully assigned entry-task/nginx-deployment-6f7656cc59-xt5n6 to node2 
+nginx-deployment-6f7656cc59-xfnz2.161b0f38f3d9f5d3: entry-task//nginx-deployment-6f7656cc59-xfnz2.161b0f38f3d9f5d3/Successfully assigned entry-task/nginx-deployment-6f7656cc59-xfnz2 to node1 
+nginx-deployment-6f7656cc59-xt5n6.161b0f3919318f1e: entry-task//nginx-deployment-6f7656cc59-xt5n6.161b0f3919318f1e/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-xfnz2.161b0f3919626ab4: entry-task//nginx-deployment-6f7656cc59-xfnz2.161b0f3919626ab4/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-xt5n6.161b0f391ad79720: entry-task//nginx-deployment-6f7656cc59-xt5n6.161b0f391ad79720/Created container web 
+nginx-deployment-6f7656cc59-xfnz2.161b0f391e7602d1: entry-task//nginx-deployment-6f7656cc59-xfnz2.161b0f391e7602d1/Created container web 
+nginx-deployment-6f7656cc59-xt5n6.161b0f392608360b: entry-task//nginx-deployment-6f7656cc59-xt5n6.161b0f392608360b/Started container web 
+nginx-deployment-6f7656cc59-xfnz2.161b0f3928bf11f9: entry-task//nginx-deployment-6f7656cc59-xfnz2.161b0f3928bf11f9/Started container web 
+nginx-deployment.161b0f39f9ac564f: entry-task//nginx-deployment.161b0f39f9ac564f/Scaled up replica set nginx-deployment-76ffd996d8 to 1 
+nginx-deployment-76ffd996d8.161b0f39fb2eeb56: entry-task//nginx-deployment-76ffd996d8.161b0f39fb2eeb56/Created pod: nginx-deployment-76ffd996d8-jrzlp 
+nginx-deployment-76ffd996d8-jrzlp.161b0f39fbbd0a9b: entry-task//nginx-deployment-76ffd996d8-jrzlp.161b0f39fbbd0a9b/Successfully assigned entry-task/nginx-deployment-76ffd996d8-jrzlp to node3 
+nginx-deployment-76ffd996d8-jrzlp.161b0f3a2941a9aa: entry-task//nginx-deployment-76ffd996d8-jrzlp.161b0f3a2941a9aa/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-jrzlp.161b0f3a2b1ab825: entry-task//nginx-deployment-76ffd996d8-jrzlp.161b0f3a2b1ab825/Created container web 
+nginx-deployment-76ffd996d8-jrzlp.161b0f3a343acf1c: entry-task//nginx-deployment-76ffd996d8-jrzlp.161b0f3a343acf1c/Started container web 
+nginx-deployment.161b0f3a5e12e53b: entry-task//nginx-deployment.161b0f3a5e12e53b/Scaled down replica set nginx-deployment-6f7656cc59 to 1 
+nginx-deployment.161b0f3a5fb65292: entry-task//nginx-deployment.161b0f3a5fb65292/Scaled up replica set nginx-deployment-76ffd996d8 to 2 
+nginx-deployment-6f7656cc59.161b0f3a5f9f5ed8: entry-task//nginx-deployment-6f7656cc59.161b0f3a5f9f5ed8/Deleted pod: nginx-deployment-6f7656cc59-xfnz2 
+nginx-deployment-6f7656cc59-xfnz2.161b0f3a5f85a9b7: entry-task//nginx-deployment-6f7656cc59-xfnz2.161b0f3a5f85a9b7/Stopping container web 
+nginx-deployment-76ffd996d8.161b0f3a619bfe51: entry-task//nginx-deployment-76ffd996d8.161b0f3a619bfe51/Created pod: nginx-deployment-76ffd996d8-rt6xr 
+nginx-deployment-76ffd996d8-rt6xr.161b0f3a63a2a6d9: entry-task//nginx-deployment-76ffd996d8-rt6xr.161b0f3a63a2a6d9/Successfully assigned entry-task/nginx-deployment-76ffd996d8-rt6xr to node1 
+nginx-deployment-76ffd996d8-rt6xr.161b0f3a8c633418: entry-task//nginx-deployment-76ffd996d8-rt6xr.161b0f3a8c633418/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-rt6xr.161b0f3a8d4be19a: entry-task//nginx-deployment-76ffd996d8-rt6xr.161b0f3a8d4be19a/Created container web 
+nginx-deployment-76ffd996d8-rt6xr.161b0f3a95d241e4: entry-task//nginx-deployment-76ffd996d8-rt6xr.161b0f3a95d241e4/Started container web 
+nginx-deployment.161b0f3ac2bc3fcd: entry-task//nginx-deployment.161b0f3ac2bc3fcd/Scaled down replica set nginx-deployment-6f7656cc59 to 0 
+nginx-deployment-6f7656cc59-xt5n6.161b0f3ac384ec69: entry-task//nginx-deployment-6f7656cc59-xt5n6.161b0f3ac384ec69/Stopping container web 
+nginx-deployment-6f7656cc59.161b0f3ac44227ce: entry-task//nginx-deployment-6f7656cc59.161b0f3ac44227ce/Deleted pod: nginx-deployment-6f7656cc59-xt5n6 
+my-nginx.161b0e9e08dc65da: default//my-nginx.161b0e9e08dc65da/Stopping container my-nginx 
+my-nginx.161b0eb5cb4821e1: default//my-nginx.161b0eb5cb4821e1/Successfully assigned default/my-nginx to node1 
+my-nginx.161b0eb624e64aec: default//my-nginx.161b0eb624e64aec/Pulling image "nginx" 
+my-nginx.161b0ec285ad414e: default//my-nginx.161b0ec285ad414e/Successfully pulled image "nginx" 
+my-nginx.161b0ec285bfdce3: default//my-nginx.161b0ec285bfdce3/Error: cannot find volume "default-token-sjzln" to mount into container "my-nginx" 
+my-nginx.161b0efa74ac848a: default//my-nginx.161b0efa74ac848a/Successfully assigned default/my-nginx to node3 
+my-nginx.161b0efa997ebdc6: default//my-nginx.161b0efa997ebdc6/Pulling image "nginx" 
+my-nginx.161b0efb7a12b949: default//my-nginx.161b0efb7a12b949/Successfully pulled image "nginx" 
+my-nginx.161b0efb7c3bbc37: default//my-nginx.161b0efb7c3bbc37/Created container my-nginx 
+my-nginx.161b0efb82b80275: default//my-nginx.161b0efb82b80275/Started container my-nginx 
+my-nginx.161b0efc41122511: default//my-nginx.161b0efc41122511/Stopping container my-nginx 
+nginx-deployment.161b107c5bd68f29: entry-task//nginx-deployment.161b107c5bd68f29/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+nginx-deployment-6f7656cc59.161b107c5d6900f6: entry-task//nginx-deployment-6f7656cc59.161b107c5d6900f6/Created pod: nginx-deployment-6f7656cc59-mm2zb 
+nginx-deployment-6f7656cc59-mm2zb.161b107c5fd35175: entry-task//nginx-deployment-6f7656cc59-mm2zb.161b107c5fd35175/Successfully assigned entry-task/nginx-deployment-6f7656cc59-mm2zb to node2 
+nginx-deployment-6f7656cc59.161b107c600a3217: entry-task//nginx-deployment-6f7656cc59.161b107c600a3217/Created pod: nginx-deployment-6f7656cc59-ngm4r 
+nginx-deployment-6f7656cc59-ngm4r.161b107c606aea3f: entry-task//nginx-deployment-6f7656cc59-ngm4r.161b107c606aea3f/Successfully assigned entry-task/nginx-deployment-6f7656cc59-ngm4r to node3 
+nginx-deployment-6f7656cc59-mm2zb.161b107c866d898b: entry-task//nginx-deployment-6f7656cc59-mm2zb.161b107c866d898b/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-mm2zb.161b107c87db4fdb: entry-task//nginx-deployment-6f7656cc59-mm2zb.161b107c87db4fdb/Created container web 
+nginx-deployment-6f7656cc59-ngm4r.161b107c881f4f99: entry-task//nginx-deployment-6f7656cc59-ngm4r.161b107c881f4f99/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-ngm4r.161b107c897e9b7d: entry-task//nginx-deployment-6f7656cc59-ngm4r.161b107c897e9b7d/Created container web 
+nginx-deployment-6f7656cc59-mm2zb.161b107c8db1a20d: entry-task//nginx-deployment-6f7656cc59-mm2zb.161b107c8db1a20d/Started container web 
+nginx-deployment-6f7656cc59-ngm4r.161b107c907f480d: entry-task//nginx-deployment-6f7656cc59-ngm4r.161b107c907f480d/Started container web 
+nginx-deployment.161b12a8c4e0a652: entry-task//nginx-deployment.161b12a8c4e0a652/Scaled up replica set nginx-deployment-76ffd996d8 to 1 
+nginx-deployment-76ffd996d8.161b12a8c5be3af1: entry-task//nginx-deployment-76ffd996d8.161b12a8c5be3af1/Created pod: nginx-deployment-76ffd996d8-zrdcj 
+nginx-deployment-76ffd996d8-zrdcj.161b12a8c7a25ec9: entry-task//nginx-deployment-76ffd996d8-zrdcj.161b12a8c7a25ec9/Successfully assigned entry-task/nginx-deployment-76ffd996d8-zrdcj to node1 
+nginx-deployment-76ffd996d8-zrdcj.161b12a8ec867991: entry-task//nginx-deployment-76ffd996d8-zrdcj.161b12a8ec867991/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-zrdcj.161b12a8ee28e0f0: entry-task//nginx-deployment-76ffd996d8-zrdcj.161b12a8ee28e0f0/Created container web 
+nginx-deployment-76ffd996d8-zrdcj.161b12a8f6a3fa14: entry-task//nginx-deployment-76ffd996d8-zrdcj.161b12a8f6a3fa14/Started container web 
+nginx-deployment.161b12a917207c3d: entry-task//nginx-deployment.161b12a917207c3d/Scaled down replica set nginx-deployment-6f7656cc59 to 1 
+nginx-deployment-6f7656cc59-ngm4r.161b12a917e7e254: entry-task//nginx-deployment-6f7656cc59-ngm4r.161b12a917e7e254/Stopping container web 
+nginx-deployment-6f7656cc59.161b12a917e58e6d: entry-task//nginx-deployment-6f7656cc59.161b12a917e58e6d/Deleted pod: nginx-deployment-6f7656cc59-ngm4r 
+nginx-deployment.161b12a9192d1fd9: entry-task//nginx-deployment.161b12a9192d1fd9/Scaled up replica set nginx-deployment-76ffd996d8 to 2 
+nginx-deployment-76ffd996d8.161b12a919e463ce: entry-task//nginx-deployment-76ffd996d8.161b12a919e463ce/Created pod: nginx-deployment-76ffd996d8-2pbwl 
+nginx-deployment-76ffd996d8-2pbwl.161b12a91b7f904c: entry-task//nginx-deployment-76ffd996d8-2pbwl.161b12a91b7f904c/Successfully assigned entry-task/nginx-deployment-76ffd996d8-2pbwl to node3 
+nginx-deployment-76ffd996d8-2pbwl.161b12a94675695e: entry-task//nginx-deployment-76ffd996d8-2pbwl.161b12a94675695e/Container image "nginx:latest" already present on machine 
+nginx-deployment-76ffd996d8-2pbwl.161b12a9478e58b9: entry-task//nginx-deployment-76ffd996d8-2pbwl.161b12a9478e58b9/Created container web 
+nginx-deployment-76ffd996d8-2pbwl.161b12a94f55b68d: entry-task//nginx-deployment-76ffd996d8-2pbwl.161b12a94f55b68d/Started container web 
+nginx-deployment.161b12a95550276c: entry-task//nginx-deployment.161b12a95550276c/Scaled down replica set nginx-deployment-6f7656cc59 to 0 
+nginx-deployment-6f7656cc59.161b12a955bd93b1: entry-task//nginx-deployment-6f7656cc59.161b12a955bd93b1/Deleted pod: nginx-deployment-6f7656cc59-mm2zb 
+nginx-deployment-6f7656cc59-mm2zb.161b12a955e751c3: entry-task//nginx-deployment-6f7656cc59-mm2zb.161b12a955e751c3/Stopping container web 
+nginx-deployment.161b17723379fe25: entry-task//nginx-deployment.161b17723379fe25/Scaled up replica set nginx-deployment-6f7656cc59 to 2 
+nginx-deployment-6f7656cc59.161b1772713cf22d: entry-task//nginx-deployment-6f7656cc59.161b1772713cf22d/Created pod: nginx-deployment-6f7656cc59-t7mvf 
+nginx-deployment-6f7656cc59.161b1772736bc431: entry-task//nginx-deployment-6f7656cc59.161b1772736bc431/Created pod: nginx-deployment-6f7656cc59-g2djd 
+nginx-deployment-6f7656cc59-t7mvf.161b1772734f2133: entry-task//nginx-deployment-6f7656cc59-t7mvf.161b1772734f2133/Successfully assigned entry-task/nginx-deployment-6f7656cc59-t7mvf to node1 
+nginx-deployment-6f7656cc59-g2djd.161b177273c7f57b: entry-task//nginx-deployment-6f7656cc59-g2djd.161b177273c7f57b/Successfully assigned entry-task/nginx-deployment-6f7656cc59-g2djd to node3 
+nginx-deployment-6f7656cc59-g2djd.161b17729a5b1ce1: entry-task//nginx-deployment-6f7656cc59-g2djd.161b17729a5b1ce1/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-g2djd.161b17729e2a18bf: entry-task//nginx-deployment-6f7656cc59-g2djd.161b17729e2a18bf/Created container web 
+nginx-deployment-6f7656cc59-t7mvf.161b1772a1e8a270: entry-task//nginx-deployment-6f7656cc59-t7mvf.161b1772a1e8a270/Container image "nginx:1.12" already present on machine 
+nginx-deployment-6f7656cc59-t7mvf.161b1772a42d6557: entry-task//nginx-deployment-6f7656cc59-t7mvf.161b1772a42d6557/Created container web 
+nginx-deployment-6f7656cc59-g2djd.161b1772a546b0cb: entry-task//nginx-deployment-6f7656cc59-g2djd.161b1772a546b0cb/Started container web 
+nginx-deployment-6f7656cc59-t7mvf.161b1772aa6f8416: entry-task//nginx-deployment-6f7656cc59-t7mvf.161b1772aa6f8416/Started container web 
